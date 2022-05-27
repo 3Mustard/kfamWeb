@@ -10,6 +10,8 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MenuItemComponent } from './pages/menu-item/menu-item.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MenuItemComponent } from './pages/menu-item/menu-item.component';
     MenuItemComponent,
     AboutComponent,
     ContactComponent,
+    FaqComponent,
+    TestimonialsComponent,
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuItemComponent } from './pages/menu-item/menu-item.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
+import { FaqComponent } from './pages/faq/faq.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -13,7 +15,9 @@ const routes: Routes = [
   {path: 'menu/:id',component:MenuItemComponent},
 
   {path:'about',component:AboutComponent},
-  {path:'contact',component:ContactComponent}
+  {path:'contact',component:ContactComponent},
+  {path:'testimonials',component:TestimonialsComponent},
+  {path:'faq',component:FaqComponent}
 ];
 
 @NgModule({
