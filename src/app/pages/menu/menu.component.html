@@ -1,0 +1,20 @@
+<div class="container mt-5 mb-5">
+
+  <div class="row">
+
+    <div class="col-lg-4" *ngFor="let item of itemData">
+
+      <div class="itemBox mt-3 mb-3">
+        <img src="{{item.image}}">
+        <h1>{{item.name}}</h1>
+        <p>{{item.details}}</p>
+        <p>{{item.details2}}</p>
+        <br>
+        <a class="menuBtn" [routerLink]="['/menu',item.id]">Go Here</a>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
